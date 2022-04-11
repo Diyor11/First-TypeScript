@@ -1,6 +1,10 @@
 import styled, { createGlobalStyle } from "styled-components";
 
 export const GlobalStyles = createGlobalStyle`  
+    @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
+
     *{
         padding: 0;
         margin: 0;
